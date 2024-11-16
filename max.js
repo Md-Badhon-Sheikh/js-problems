@@ -6,5 +6,7 @@ function getMax(num1,num2){
         return num2;
     }
 }
-const max = getMax(50,45);
-console.log("Max number is : ", max);
+const max1 = getMax(50,45);
+const max2 = getMax(60,42);
+const ultimateMax= (max1,max2);
+console.log("Max number is : ", ultimateMax);
